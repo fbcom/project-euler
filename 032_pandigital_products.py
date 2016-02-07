@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 #
 # A Solution to "Pandigital Products" – Project Euler Problem No. 32
 # by Florian Buetow
@@ -6,6 +7,7 @@
 # "Sometimes coding a solution fast beats fast code"
 # Article: http://blog.florianbuetow.de/pandigital-products-project-euler-problem-no-32/
 # Sourcecode: https://github.com/fbcom/project-euler
+# Problem statement: https://projecteuler.net/problem=32
 #
 from itertools import permutations
 
