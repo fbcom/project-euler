@@ -9,7 +9,7 @@
 #
 
 
-def count_ways(amount, coins, indent=3):
+def count_ways(amount, coins):
     coins = [coin for coin in coins if coin <= amount]  # remove coins > amount
     if coins:
         ret = 0
@@ -19,7 +19,7 @@ def count_ways(amount, coins, indent=3):
             left_coins = [left_coin for left_coin in coins if left_coin not in visited]
             times = amount // coin
             for x in range(times, 0, -1):
-                ret = ret + count_ways(amount - coin * x, left_coins, indent+3)
+                ret = ret + count_ways(amount - coin * x, left_coins)
     else:
         if amount > 0:
             ret = 0
