@@ -1,6 +1,4 @@
-Project Euler solutions
-==============
-
+# Project Euler solutions
 
 ### What is this?
 
@@ -12,4 +10,4 @@ Click [here](https://github.com/fbcom/project-euler/archive/master.zip) to downl
 
 ### License:
 
-Material taken from projecteuler.net is licensed under Attribution-NonCommercial-ShareAlike 2.0 UK: England & Wales. More info [here](https://projecteuler.net/copyright).
+Material taken from projecteuler.net (i.e. problem data) is licensed under Attribution-NonCommercial-ShareAlike 2.0 UK: England & Wales. More info [here](https://projecteuler.net/copyright).
