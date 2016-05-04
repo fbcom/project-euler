@@ -51,6 +51,7 @@ def find_sidelength(percent_max):
 def get_sidelength(radius):
     return max(0, 2*radius - 1)
 
+
 def find_radius(percent_max):
     sum_numbers_on_diagonals = 0
     sum_number_of_primes_on_diagonals = 0
@@ -61,7 +62,7 @@ def find_radius(percent_max):
         sum_number_of_primes_on_diagonals += len(get_primes_on_diagonals_at_radius(radius))
         if sum_number_of_primes_on_diagonals > 0:
             percent = 100*(1.0*sum_number_of_primes_on_diagonals/sum_numbers_on_diagonals)
-            if percent < percent_max and radius > 3: # skip the first (and only) dip in percentage
+            if percent < percent_max and radius > 3:  # skip the first (and only) dip in percentage
                 return radius
 
 # Testcases
