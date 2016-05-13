@@ -17,7 +17,7 @@ def same_digits_in_permuted_multiples(n, max_factor):
 
     return True
 
-# # Testcases
+# Testcase
 assert same_digits_in_permuted_multiples(125874, 2), "Testcase failed"
 
 # Solve
