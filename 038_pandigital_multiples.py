@@ -35,7 +35,7 @@ def concaternatedproduct(number, maxdigits=9):
 assert (192384576 == concaternatedproduct(192)[0]), "Testcase failed"
 assert (is_pandigital(concaternatedproduct(192)[0])), "Testcase failed"
 
-
+# Solve
 solution = 0
 for number in range(2, 10**5):  # since n > 1 number can at most have 9/2 = 4 digits
     (concatproduct, n) = concaternatedproduct(number)
@@ -44,5 +44,4 @@ for number in range(2, 10**5):  # since n > 1 number can at most have 9/2 = 4 di
         if concatproduct > solution:
             solution = concatproduct
 
-# Solve
 print "Solution:", solution
