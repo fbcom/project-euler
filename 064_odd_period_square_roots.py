@@ -29,7 +29,6 @@ def get_period_of_continued_fraction(S):
 
     return ret
 
-
 # Testcase
 assert len(get_period_of_continued_fraction(23)) == 4, "Testcase failed"
 assert len(get_period_of_continued_fraction(114)) == 6, "Testcase failed"
